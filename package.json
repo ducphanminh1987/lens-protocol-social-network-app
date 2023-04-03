@@ -1,0 +1,27 @@
+{
+  "name": "lens-protocol-social-network",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.11",
+    "@lens-protocol/react-web": "^0.6.0",
+    "@lens-protocol/wagmi": "^0.6.0",
+    "ethers": "^5.7.2",
+    "graphql": "^16.6.0",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "urql": "^4.0.0",
+    "wagmi": "^0.12.8"
+  },
+  "devDependencies": {
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4"
+  }
+}
